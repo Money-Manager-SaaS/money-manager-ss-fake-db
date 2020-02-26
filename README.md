@@ -1,5 +1,7 @@
 # money-manager-ss-fake-db
 
+-   [fake api url](https://my-json-server.typicode.com/Money-Manager-SaaS/money-manager-ss-fake-db)
+
 ## example transaction
 
 ```
@@ -16,3 +18,12 @@
       "ToAmount": 0, // be 0, if it is not transfer
     }
 ```
+
+## parameters
+
+-   \_limit
+-   \_start
+-   \_filter
+-   \_sort
+
+inspired by Strapi parameters
