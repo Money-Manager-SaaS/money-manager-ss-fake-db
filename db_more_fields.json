@@ -4,11 +4,6 @@
             "id": 1,
             "TransCode": -1,
             "AccountID": 1,
-            "ToAccountID": null,
-            "SubCategoryID": 1,
-            "CategoryID": 1,
-            "PayeeID": 1,
-            "Notes": "shopping",
             "Amount": 100,
             "ToAmount": 0
         },
@@ -16,11 +11,6 @@
             "id": 2,
             "TransCode": 0,
             "AccountID": 1,
-            "ToAccountID": 2,
-            "SubCategoryID": -1,
-            "CategoryID": -1,
-            "PayeeID": -1,
-            "Notes": "transfer to bank",
             "Amount": 100,
             "ToAmount": 100
         }
@@ -30,6 +20,12 @@
             "id": 1,
             "Name": "Drink",
             "Category": {}
+        }
+    ],
+    "categories": [
+        {
+            "id": 1,
+            "Name": "Food"
         }
     ],
     "accounts": [
@@ -59,7 +55,6 @@
             "id": 1,
             "Name": "United States dollar",
             "PFX_Symbol": "$",
-            "Symbol": "USD",
             "Scale": 100,
             "BaseConvRate": 1
         }
